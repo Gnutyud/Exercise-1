@@ -79,6 +79,13 @@ img {
     color: orange;
 }
 
+.header__menu-login {
+    display: inline-block;
+    padding: 1.5rem 2.5rem;
+    border: 1px solid currentColor;
+    border-radius: 2.5rem;
+}
+
 .banner {
     padding-top: 15rem;
     max-width: 60rem;
@@ -143,12 +150,29 @@ div>h1 {
 
 .category__item {
     width: calc(25% - 2.25rem);
-    background-color: whitesmoke;
+    background-color: #ffffff;
     padding: 2.5rem;
     border-radius: 2rem;
     display: flex;
     /* justify-content: start; */
     flex-direction: column;
+    box-shadow: 1rem 1rem 0.8rem currentColor;
+}
+
+.boxshadow-pink {
+    box-shadow: 2rem 2rem 1.5rem rgba(255, 151, 195, 0.1);
+}
+
+.boxshadow-red {
+    box-shadow: 2rem 2rem 1.5rem rgba(255, 112, 109, 0.1);
+}
+
+.boxshadow-blue {
+    box-shadow: 2rem 2rem 1.5rem rgba(133, 152, 255, 0.1);
+}
+
+.boxshadow-orange {
+    box-shadow: 2rem 2rem 1.5rem rgba(255, 200, 122, 0.1);
 }
 
 .category__image {
